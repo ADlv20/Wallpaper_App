@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "88611651171",
+    "project_id": "litpixelsad",
+    "storage_bucket": "litpixelsad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88611651171:android:1589282320033854254256",
+        "android_client_info": {
+          "package_name": "com.plasma.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88611651171-qul18j72m6if0sn7stoe2qmd4c2d89fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqFVYmRaOcseBnz2tGf5nr-UB_VoIbpeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88611651171-qul18j72m6if0sn7stoe2qmd4c2d89fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
