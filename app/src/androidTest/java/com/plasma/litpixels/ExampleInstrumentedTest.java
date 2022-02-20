@@ -1,4 +1,4 @@
-package com.plasma.wallpaper;
+package com.plasma.litpixels;
 
 import android.content.Context;
 

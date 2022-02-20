@@ -1,4 +1,4 @@
-package com.plasma.wallpaper;
+package com.plasma.litpixels;
 
 import org.junit.Test;
 
