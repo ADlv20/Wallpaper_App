@@ -1,5 +1,6 @@
 package com.plasma.litpixels;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setOnItemSelectedListener(navListner);
+        bottomNavigationView.setBackgroundColor(Color.parseColor("#000000"));
+
     }
 
     private NavigationBarView.OnItemSelectedListener navListner =
@@ -33,15 +36,15 @@ public class MainActivity extends AppCompatActivity {
 
                     switch (item.getItemId()){
                         case R.id.homeFragment:
-                            selectedFragment = new homeFragment();
+                            selectedFragment = new HomeFragment();
                             break;
 
                         case R.id.browseFragment:
-                            selectedFragment = new browseFragment();
+                            selectedFragment = new BrowseFragment();
                             break;
 
                         case R.id.accountFragment:
-                            selectedFragment = new accountFragment();
+                            selectedFragment = new AccountFragment();
                             break;
                     }
 

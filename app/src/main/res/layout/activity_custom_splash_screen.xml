@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CustomSplashScreen"
-    android:background="#0E0E0E"
+    android:background="#000000"
     android:fitsSystemWindows="true">
 
     <LinearLayout
@@ -43,8 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Made With Love From Sahil MC"
-        android:textColor="@color/white"
+        android:text="@string/made_with_love_from_sahil"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

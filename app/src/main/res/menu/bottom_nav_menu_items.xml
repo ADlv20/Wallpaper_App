@@ -3,20 +3,17 @@
 
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/ui"
-        android:title="@string/discover"
-        android:color="@color/white"/>
+        android:icon="@drawable/gradcompass3"
+        android:title="@string/discover" />
 
     <item
         android:id="@+id/browseFragment"
         android:icon="@drawable/mobilesearch"
-        android:title="@string/search"
-        android:color="@color/white"/>
+        android:title="@string/search" />
 
     <item
         android:id="@+id/accountFragment"
-        android:icon="@drawable/setting"
-        android:title="@string/account"
-        android:color="@color/white"/>
+        android:icon="@drawable/profile"
+        android:title="@string/account" />
 
 </menu>

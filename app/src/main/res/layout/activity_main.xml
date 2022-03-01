@@ -25,12 +25,12 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_gravity="start"
-        android:background="@drawable/bottom_nav_shape"
-        android:foregroundTint="@color/white"
         app:itemIconSize="30dp"
         app:labelVisibilityMode="unlabeled"
         app:layout_anchorGravity="bottom"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/bottom_nav_menu_items" />
+        android:background="@drawable/bottom_nav_shape"
+        app:menu="@menu/bottom_nav_menu_items"
+        app:itemIconTint="@drawable/item_selector"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
