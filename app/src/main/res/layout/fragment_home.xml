@@ -64,7 +64,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:layout_constraintVertical_bias="0.0">
+            app:layout_constraintVertical_bias="0.0"
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/halolatest"/>
+                        android:background="@drawable/halolatest" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -99,7 +99,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/ichigolatest"/>
+                        android:background="@drawable/ichigolatest" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -115,39 +115,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/zerotwo"/>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                android:layout_width="110sp"
-                android:layout_height="180sp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="10sp"
-                android:textAlignment="center"
-                app:cardCornerRadius="10sp"
-                app:cardElevation="10sp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/mai_san"/>
-
-            </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="110sp"
-                    android:layout_height="180sp"
-                    android:layout_gravity="center"
-                    android:layout_marginEnd="10sp"
-                    android:textAlignment="center"
-                    app:cardCornerRadius="10sp"
-                    app:cardElevation="10sp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/randomlatest1"/>
+                        android:background="@drawable/zerotwo" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -163,7 +131,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/spidermanlatest"/>
+                        android:background="@drawable/mai_san" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -179,7 +147,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/ducati"/>
+                        android:background="@drawable/randomlatest1" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -195,7 +163,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/f_racing"/>
+                        android:background="@drawable/spidermanlatest" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -211,7 +179,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/winter"/>
+                        android:background="@drawable/ducati" />
 
                 </androidx.cardview.widget.CardView>
 
@@ -227,7 +195,39 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/buildings"/>
+                        android:background="@drawable/f_racing" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110sp"
+                    android:layout_height="180sp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10sp"
+                    android:textAlignment="center"
+                    app:cardCornerRadius="10sp"
+                    app:cardElevation="10sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/winter" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="110sp"
+                    android:layout_height="180sp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10sp"
+                    android:textAlignment="center"
+                    app:cardCornerRadius="10sp"
+                    app:cardElevation="10sp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/buildings" />
 
                 </androidx.cardview.widget.CardView>
 
