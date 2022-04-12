@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 //#001324
 
     BottomNavigationView bottomNavigationView;
-
+//hello onkar chya gaandit paay
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
